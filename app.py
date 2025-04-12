@@ -31,5 +31,5 @@ st.success(response)
 
 # Event Log
 st.subheader("Event Log")
-log_df = pd.read_csv("logs/event_log.csv")
+log_df = pd.read_csv("logs/event_logs.csv")
 st.dataframe(log_df)
